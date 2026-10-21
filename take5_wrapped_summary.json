@@ -1,0 +1,237 @@
+{
+  "source": {
+    "chat_id": 1731,
+    "message_records": 15061,
+    "first_record": "2025-02-04 10:03:03",
+    "last_record": "2026-10-11 12:52:01",
+    "known_member_ids": {
+      "0": "Jay",
+      "4": "Nikhil",
+      "5": "Amar",
+      "15": "Nathan",
+      "17": "Shil",
+      "121": "Anoop",
+      "214": "Neal",
+      "217": "Purav"
+    },
+    "quality": {
+      "messages": 12214,
+      "text_source_attributedBody": 9705,
+      "text_source_unavailable": 40,
+      "linked_tapbacks": 2788,
+      "messages_with_object_placeholder": 371,
+      "text_source_original": 2469,
+      "unlinked_tapbacks": 49,
+      "unmapped_sender_messages": 1
+    }
+  },
+  "periods": {
+    "2025": {
+      "total_messages_with_mapped_sender": 6198,
+      "participants": {
+        "Jay": {
+          "messages": 990,
+          "hahas_received": 59,
+          "hahas_per_100_messages": 5.96,
+          "hahas_given": 93,
+          "reactions_received": 207,
+          "dislikes_given": 9
+        },
+        "Nikhil": {
+          "messages": 351,
+          "hahas_received": 24,
+          "hahas_per_100_messages": 6.84,
+          "hahas_given": 51,
+          "reactions_received": 93,
+          "dislikes_given": 5
+        },
+        "Amar": {
+          "messages": 893,
+          "hahas_received": 66,
+          "hahas_per_100_messages": 7.39,
+          "hahas_given": 22,
+          "reactions_received": 160,
+          "dislikes_given": 10
+        },
+        "Nathan": {
+          "messages": 2117,
+          "hahas_received": 167,
+          "hahas_per_100_messages": 7.89,
+          "hahas_given": 12,
+          "reactions_received": 415,
+          "dislikes_given": 3
+        },
+        "Shil": {
+          "messages": 657,
+          "hahas_received": 54,
+          "hahas_per_100_messages": 8.22,
+          "hahas_given": 153,
+          "reactions_received": 150,
+          "dislikes_given": 10
+        },
+        "Anoop": {
+          "messages": 462,
+          "hahas_received": 11,
+          "hahas_per_100_messages": 2.38,
+          "hahas_given": 75,
+          "reactions_received": 54,
+          "dislikes_given": 13
+        },
+        "Neal": {
+          "messages": 488,
+          "hahas_received": 57,
+          "hahas_per_100_messages": 11.68,
+          "hahas_given": 9,
+          "reactions_received": 129,
+          "dislikes_given": 16
+        },
+        "Purav": {
+          "messages": 240,
+          "hahas_received": 25,
+          "hahas_per_100_messages": 10.42,
+          "hahas_given": 55,
+          "reactions_received": 87,
+          "dislikes_given": 3
+        }
+      }
+    },
+    "2026": {
+      "total_messages_with_mapped_sender": 6015,
+      "participants": {
+        "Jay": {
+          "messages": 997,
+          "hahas_received": 103,
+          "hahas_per_100_messages": 10.33,
+          "hahas_given": 119,
+          "reactions_received": 286,
+          "dislikes_given": 21
+        },
+        "Nikhil": {
+          "messages": 438,
+          "hahas_received": 34,
+          "hahas_per_100_messages": 7.76,
+          "hahas_given": 68,
+          "reactions_received": 132,
+          "dislikes_given": 8
+        },
+        "Amar": {
+          "messages": 724,
+          "hahas_received": 66,
+          "hahas_per_100_messages": 9.12,
+          "hahas_given": 41,
+          "reactions_received": 187,
+          "dislikes_given": 15
+        },
+        "Nathan": {
+          "messages": 2127,
+          "hahas_received": 180,
+          "hahas_per_100_messages": 8.46,
+          "hahas_given": 11,
+          "reactions_received": 413,
+          "dislikes_given": 3
+        },
+        "Shil": {
+          "messages": 617,
+          "hahas_received": 58,
+          "hahas_per_100_messages": 9.4,
+          "hahas_given": 156,
+          "reactions_received": 187,
+          "dislikes_given": 12
+        },
+        "Anoop": {
+          "messages": 373,
+          "hahas_received": 16,
+          "hahas_per_100_messages": 4.29,
+          "hahas_given": 66,
+          "reactions_received": 81,
+          "dislikes_given": 18
+        },
+        "Neal": {
+          "messages": 469,
+          "hahas_received": 57,
+          "hahas_per_100_messages": 12.15,
+          "hahas_given": 7,
+          "reactions_received": 128,
+          "dislikes_given": 11
+        },
+        "Purav": {
+          "messages": 270,
+          "hahas_received": 29,
+          "hahas_per_100_messages": 10.74,
+          "hahas_given": 86,
+          "reactions_received": 79,
+          "dislikes_given": 14
+        }
+      }
+    },
+    "all_time_available": {
+      "total_messages_with_mapped_sender": 12213,
+      "participants": {
+        "Jay": {
+          "messages": 1987,
+          "hahas_received": 162,
+          "hahas_per_100_messages": 8.15,
+          "hahas_given": 212,
+          "reactions_received": 493,
+          "dislikes_given": 30
+        },
+        "Nikhil": {
+          "messages": 789,
+          "hahas_received": 58,
+          "hahas_per_100_messages": 7.35,
+          "hahas_given": 119,
+          "reactions_received": 225,
+          "dislikes_given": 13
+        },
+        "Amar": {
+          "messages": 1617,
+          "hahas_received": 132,
+          "hahas_per_100_messages": 8.16,
+          "hahas_given": 63,
+          "reactions_received": 347,
+          "dislikes_given": 25
+        },
+        "Nathan": {
+          "messages": 4244,
+          "hahas_received": 347,
+          "hahas_per_100_messages": 8.18,
+          "hahas_given": 23,
+          "reactions_received": 828,
+          "dislikes_given": 6
+        },
+        "Shil": {
+          "messages": 1274,
+          "hahas_received": 112,
+          "hahas_per_100_messages": 8.79,
+          "hahas_given": 309,
+          "reactions_received": 337,
+          "dislikes_given": 22
+        },
+        "Anoop": {
+          "messages": 835,
+          "hahas_received": 27,
+          "hahas_per_100_messages": 3.23,
+          "hahas_given": 141,
+          "reactions_received": 135,
+          "dislikes_given": 31
+        },
+        "Neal": {
+          "messages": 957,
+          "hahas_received": 114,
+          "hahas_per_100_messages": 11.91,
+          "hahas_given": 16,
+          "reactions_received": 257,
+          "dislikes_given": 27
+        },
+        "Purav": {
+          "messages": 510,
+          "hahas_received": 54,
+          "hahas_per_100_messages": 10.59,
+          "hahas_given": 141,
+          "reactions_received": 166,
+          "dislikes_given": 17
+        }
+      }
+    }
+  }
+}
