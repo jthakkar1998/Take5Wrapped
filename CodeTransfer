@@ -46,3 +46,18 @@ sqlite3 -header -column ~/Desktop/Take5Export/chat.db \
 FROM handle
 WHERE ROWID IN (4,5,15,17,121,214,217)
 ORDER BY ROWID;"
+
+
+
+sqlite3 -header -csv ~/Desktop/Take5Export/chat.db "
+SELECT
+    m.ROWID AS message_id,
+    hex(m.attributedBody) AS attributed_body_hex
+FROM message m
+JOIN chat_message_join cmj
+    ON m.ROWID = cmj.message_id
+WHERE cmj.chat_id = 1731
+  AND m.associated_message_type = 0
+  AND (m.text IS NULL OR m.text = '')
+  AND m.attributedBody IS NOT NULL;
+" > ~/Desktop/Take5Export/take5_message_bodies.csv
