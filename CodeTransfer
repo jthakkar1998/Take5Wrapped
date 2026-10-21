@@ -38,3 +38,11 @@ JOIN chat_message_join cmj
 WHERE cmj.chat_id = 1731
 ORDER BY m.date;
 " > ~/Desktop/Take5Export/take5_messages.csv
+
+
+
+sqlite3 -header -column ~/Desktop/Take5Export/chat.db \
+"SELECT ROWID AS sender_id, id AS contact_identifier
+FROM handle
+WHERE ROWID IN (4,5,15,17,121,214,217)
+ORDER BY ROWID;"
