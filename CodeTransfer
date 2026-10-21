@@ -16,3 +16,25 @@ WHERE c.ROWID IN (1696, 1700, 1731)
 GROUP BY c.ROWID
 ORDER BY c.ROWID;
 SQL
+
+
+
+sqlite3 -header -csv ~/Desktop/Take5Export/chat.db "
+SELECT
+    m.ROWID AS message_id,
+    m.guid AS message_guid,
+    m.date AS timestamp,
+    datetime(m.date / 1000000000.0 + 978307200,
+             'unixepoch', 'localtime') AS message_date,
+    m.is_from_me,
+    m.handle_id AS sender_id,
+    m.text AS message_text,
+    m.associated_message_type AS reaction_type,
+    m.associated_message_guid AS reacted_to_guid,
+    m.cache_has_attachments AS has_attachment
+FROM message m
+JOIN chat_message_join cmj
+    ON m.ROWID = cmj.message_id
+WHERE cmj.chat_id = 1731
+ORDER BY m.date;
+" > ~/Desktop/Take5Export/take5_messages.csv
